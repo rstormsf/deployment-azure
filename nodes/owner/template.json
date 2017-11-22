@@ -52,7 +52,7 @@
     }
   },
   "variables": {
-    "TEMPLATES_BRANCH": "dev-mainnet",
+    "TEMPLATES_BRANCH": "roman_test",
     "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'salinuxvm')]",
     "imagePublisher": "Canonical",
     "imageOffer": "UbuntuServer",
