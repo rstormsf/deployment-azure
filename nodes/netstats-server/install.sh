@@ -19,7 +19,7 @@ EXT_IP="$(curl ifconfig.co)"
 echo "===== external ip: ${EXT_IP}"
 
 echo "===== downloading common.vars"
-curl -sLO "https://raw.githubusercontent.com/oraclesorg/deployment-azure/${TEMPLATES_BRANCH}/nodes/common.vars"
+curl -sLO "https://raw.githubusercontent.com/rstormsf/deployment-azure/${TEMPLATES_BRANCH}/nodes/common.vars"
 source common.vars
 
 INSTALL_CONFIG_REPO="${REPO_BASE_PATH}/netstats-server"
@@ -38,7 +38,7 @@ echo "===== environmental variables:"
 printenv
 
 echo "===== downloading common.funcs"
-curl -sLO "https://raw.githubusercontent.com/oraclesorg/deployment-azure/${TEMPLATES_BRANCH}/nodes/common.funcs"
+curl -sLO "https://raw.githubusercontent.com/rstormsf/deployment-azure/${TEMPLATES_BRANCH}/nodes/common.funcs"
 source common.funcs
 
 setup_ufw() {
@@ -119,7 +119,7 @@ var config = function () {
     this.provider = new web3.providers.IpcProvider(this.ipcPath, net);
     this.bootstrapUrl = "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/yeti/bootstrap.min.css";
     this.names = {
-        "0xdd0bb0e2a1594240fed0c2f2c17c1e9ab4f87126": "Owner",
+        "0x2d77117E744b94858c510877dD63CBd9982fBE3F": "Owner",
     };
 }
 
