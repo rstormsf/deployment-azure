@@ -84,7 +84,7 @@ EOF
 
 download_initial_keys_script() {
     echo "=====> download_initial_keys_script"
-    git clone -b ${IKEYS_BRANCH} --single-branch https://github.com/oraclesorg/oracles-initial-keys
+    git clone -b ${IKEYS_BRANCH} --single-branch https://github.com/rstormsf/oracles-initial-keys
     cd oracles-initial-keys
     npm install
     cd ..
