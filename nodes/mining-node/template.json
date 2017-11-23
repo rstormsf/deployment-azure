@@ -59,8 +59,8 @@
     }
   },
   "variables": {
-    "TEMPLATES_BRANCH": "dev-mainnet",
-    "MAIN_REPO_FETCH": "oraclesorg",
+    "TEMPLATES_BRANCH": "test-new-config",
+    "MAIN_REPO_FETCH": "rstormsf",
     "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'salinuxvm')]",
     "imagePublisher": "Canonical",
     "imageOffer": "UbuntuServer",
